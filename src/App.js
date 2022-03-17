@@ -1,9 +1,12 @@
-import UseState from "./Hooks/UseState";
+// import UseState from "./Hooks/UseState";
+
+import ReactForm from "./Forms/ReactForm";
 
 function App() {
   return (
     <div className="App">
-      <UseState/>
+      {/* <UseState/> */}
+      <ReactForm/>
     </div>
   );
 }
