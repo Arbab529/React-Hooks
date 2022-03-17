@@ -1,6 +1,8 @@
 // import UseState from "./Hooks/UseState";
 // import UseEffect from "./Hooks/UseEffect";
 
+import User from "./Project/User";
+
 // import ReactForm from "./Forms/ReactForm";
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
       {/* <UseState/> */}
       {/* <UseEffect/> */}
       {/* <ReactForm/> */}
+      <User/>
     </div>
   );
 }
