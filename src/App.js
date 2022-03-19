@@ -1,15 +1,15 @@
 // import UseState from "./Hooks/UseState";
 // import UseEffect from "./Hooks/UseEffect";
-// import UseRef from "./Hooks/UseRef";
+import UseRef from "./Hooks/UseRef";
 
 // import User from "./Project/User";
 // import ReactForm from "./Forms/ReactForm";
 
-import { createContext } from "react";
-import CompA from "./ContextAPI/CompA";
+// import { createContext } from "react";
+// import CompA from "./ContextAPI/CompA";
 
-const FirstName = createContext();
-const LastName = createContext();
+// const FirstName = createContext();
+// const LastName = createContext();
 
 function App() {
   return (
@@ -18,15 +18,15 @@ function App() {
       {/* <UseEffect/> */}
       {/* <ReactForm/> */}
       {/* <User/> */}
-      {/* <UseRef/> */}
-      <FirstName.Provider value={"Arbab"}>
+      <UseRef/>
+      {/* <FirstName.Provider value={"Arbab"}>
           <LastName.Provider value={"Anjum"}>
             <CompA/>
           </LastName.Provider>
-      </FirstName.Provider>
+      </FirstName.Provider> */}
     </div>
   );
 }
 
 export default App;
-export {FirstName,LastName};
+// export {FirstName,LastName};
