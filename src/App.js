@@ -1,13 +1,19 @@
+
+// Hooks ----------------------
 // import UseState from "./Hooks/UseState";
 // import UseEffect from "./Hooks/UseEffect";
-import UseRef from "./Hooks/UseRef";
+import UseReducer from "./Hooks/UseReducer";
+// import UseRef from "./Hooks/UseRef";
 
+// Project -----------------
 // import User from "./Project/User";
+
+// Form --------------------
 // import ReactForm from "./Forms/ReactForm";
 
+// Context API ---------------------
 // import { createContext } from "react";
 // import CompA from "./ContextAPI/CompA";
-
 // const FirstName = createContext();
 // const LastName = createContext();
 
@@ -18,7 +24,8 @@ function App() {
       {/* <UseEffect/> */}
       {/* <ReactForm/> */}
       {/* <User/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <UseReducer/>
       {/* <FirstName.Provider value={"Arbab"}>
           <LastName.Provider value={"Anjum"}>
             <CompA/>
