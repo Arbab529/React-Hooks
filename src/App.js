@@ -2,8 +2,10 @@
 // Hooks ----------------------
 // import UseState from "./Hooks/UseState";
 // import UseEffect from "./Hooks/UseEffect";
-import UseReducer from "./Hooks/UseReducer";
+// import UseReducer from "./Hooks/UseReducer";
 // import UseRef from "./Hooks/UseRef";
+import UseReducer from "./Forms/UseReducer";
+
 
 // Project -----------------
 // import User from "./Project/User";
@@ -26,6 +28,7 @@ function App() {
       {/* <User/> */}
       {/* <UseRef/> */}
       <UseReducer/>
+      {/* <UseReducer/> */}
       {/* <FirstName.Provider value={"Arbab"}>
           <LastName.Provider value={"Anjum"}>
             <CompA/>

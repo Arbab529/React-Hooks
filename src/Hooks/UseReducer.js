@@ -18,7 +18,6 @@ const reducer =(currentState,action) => {
 }
 
 function UseReducer() {
-
     const [state,dispatch] = useReducer(reducer,initialState);
   return (
     <>
